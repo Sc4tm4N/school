@@ -1,12 +1,13 @@
 # Web Security - 3rd Major Task
 
-Site was a django app, most security systems were turned on. The bug was simply by design. Messages was purely inserted from db and it was possible to run custom script if you uploaded avatar .png and then used it as .js. 
+Site was a django app, most security systems were turned on. The bug was simply by design. Messages were purely inserted from db and it was possible to run custom script if you uploaded avatar .png and then used it as .js. 
 Steps:
 * write .js with code you want to execute
 * change it's name to .png
 * upload it as your avatar
-* send message to someone containg: <script src="<link to your avatar>"></script>
-* wait for flague
+* send message to bsk_master (1 trusted account) containg: <script src="link on site to your avatar"></script>
+* wait for flague (bsk master receives prepared msg, reads, asks admin for flague, then sends it back to you)
+Was done on user 'Jolanta'. 
 
 
 ## Content (in Polish):

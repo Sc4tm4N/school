@@ -7,7 +7,6 @@ Steps:
 * upload it as your avatar
 * send message to bsk_master (1 trusted account) containg: <script src="link on site to your avatar"></script>
 * wait for flague (bsk master receives prepared msg, reads, asks admin for flague, then sends it back to you)
-Was done on user 'Jolanta'. 
 
 
 ## Content (in Polish):
